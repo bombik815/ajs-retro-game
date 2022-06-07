@@ -1,0 +1,45 @@
+{
+  "name": "ajs-retro-game",
+  "version": "1.0.0",
+  "description": "https://bombik815.github.io/ajs-retro-game/",
+  "main": "webpack.config.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development",
+    "test": "jest --coverage",
+    "lint": "eslint .",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bombik815/ajs-retro-game.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bombik815/ajs-retro-game/issues"
+  },
+  "homepage": "https://github.com/bombik815/ajs-retro-game#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.18.2",
+    "@babel/preset-env": "^7.18.2",
+    "babel-jest": "^28.1.0",
+    "babel-loader": "^8.2.5",
+    "css-loader": "^6.7.1",
+    "eslint": "^8.17.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "html-loader": "^3.1.0",
+    "html-webpack-plugin": "^5.5.0",
+    "jest": "^28.1.0",
+    "live-server": "^1.2.2",
+    "mini-css-extract-plugin": "^2.6.0",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.9.1"
+  },
+  "dependencies": {
+    "core-js": "^3.22.8"
+  }
+}
